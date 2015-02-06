@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IsEqualId" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAgA=</HashCode>
+      <FileName>SymbolTable.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calc" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAxIAACAAAAAAAChAAAAAAAEoAAABAEA=</HashCode>
+      <FileName>Calc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandParser" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgKAAgIAIAAQAAAAAAAAQAAgAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exception" Collapsed="true">
+    <Position X="10.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAACAAgAAAABAAAAAAQAAAABAAABAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SyntaxError" Collapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileStreamError" Collapsed="true">
+    <Position X="8.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevisorZero" Collapsed="true">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionTable" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgACAACAAAABAAAAgAAAAAAACAAAACAA=</HashCode>
+      <FileName>FunctionTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Noncpyable" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumberNode" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryNode" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddNode" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubNode" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiplyNode" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DivideNode" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignNode" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnaryNode" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAABAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionNode" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UMinusNode" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultipleNode" Collapsed="true">
+    <Position X="22.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAACAAAIAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SumNode" Collapsed="true">
+    <Position X="23.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductNode" Collapsed="true">
+    <Position X="21.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableNode" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAACgA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parser" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAAAAIAAAAAAAAAAAQAiAAAAAAGAAAAhAAAAA=</HashCode>
+      <FileName>Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scanner" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIFAICAABKAABAACAkAgAAAAAAAAAAAAAAAAAAAJIAA=</HashCode>
+      <FileName>Scanner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serializer" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAEAAAAAg=</HashCode>
+      <FileName>Serial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeSerializer" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAgAAAABAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Serial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serializable" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgCAAQAAAAACACBAAAAAAAAAAAFAAgA=</HashCode>
+      <FileName>Storage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymbolTable" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAAAAAAAAAAAAAAACBIAICAAAAIAABIAAA=</HashCode>
+      <FileName>SymbolTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracer" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Tracer::Entry" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Tracer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Tracer::Lock" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Tracer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAEAAAAAEAAAAAhAAIAAAAABAAAAAAQAQAAAA=</HashCode>
+      <FileName>Tracer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="FunctionEntry" Collapsed="true">
+    <Position X="26.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FunctionTable.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="PtrFun" Collapsed="true">
+    <Position X="26.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FunctionTable.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="STATUS" Collapsed="true">
+    <Position X="28" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EToken" Collapsed="true">
+    <Position X="26.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAgAQAQBAAQQIAAAgBEAAAAAAABA=</HashCode>
+      <FileName>Scanner.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
