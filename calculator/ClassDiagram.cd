@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Calc" Collapsed="true">
-    <Position X="0.5" Y="7.75" Width="1.5" />
+    <Position X="0.5" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAxIAACAAAAAAAChAAAAAAAEoAAABAEA=</HashCode>
       <FileName>Calc.h</FileName>
@@ -24,7 +24,7 @@
   <Class Name="Exception" Collapsed="true">
     <Position X="10.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAQAACAAgAAAABAAAAAAQAAAABAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQAACAAAAAAAAAAAAAAAAAAABAAABAAAAAAAA=</HashCode>
       <FileName>Exception.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -42,17 +42,17 @@
       <FileName>Exception.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DevisorZero" Collapsed="true">
+  <Class Name="VersionUnMatch" Collapsed="true">
     <Position X="10.75" Y="8" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
       <FileName>Exception.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FunctionTable" Collapsed="true">
     <Position X="29.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAgACAACAAAABAAAAgAAAAAAACAAAACAA=</HashCode>
+      <HashCode>AAAAAAAAQAAAAACAACAAAAAAAAAgAAAAAAACAAAACAA=</HashCode>
       <FileName>FunctionTable.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -178,7 +178,7 @@
   <Class Name="Scanner" Collapsed="true">
     <Position X="29.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIFAICAABKAABAACAkAgAAAAAAAAAAAAAAAAAAAJIAA=</HashCode>
+      <HashCode>AIFAICAABKAABAACAkAgAAAAAAAAACAAAAAAAAAJIAA=</HashCode>
       <FileName>Scanner.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -196,7 +196,7 @@
       <FileName>Serial.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Serializable" Collapsed="true">
+  <Class Name="Serializable">
     <Position X="2.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
@@ -204,14 +204,24 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Storage" Collapsed="true">
-    <Position X="2.75" Y="7.75" Width="1.5" />
+    <Position X="2.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAgCAAQAAAAACACBAAAAAAAAAAAFAAgA=</HashCode>
       <FileName>Storage.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SymbolTable" Collapsed="true">
-    <Position X="5" Y="7.75" Width="1.5" />
+  <Class Name="SymbolTable">
+    <Position X="5" Y="8.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SymbolTable::__unnamed_enum_014f_1">
+        <TypeIdentifier>
+          <NewMemberFileName>SymbolTable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAIAIAAAAAAAAAAAAAAAAAAAACBIAICAAAAIAABIAAA=</HashCode>
       <FileName>SymbolTable.h</FileName>
@@ -223,18 +233,6 @@
       <Compartment Name="Fields" Collapsed="true" />
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
-    <NestedTypes>
-      <Class Name="Tracer::Entry" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Tracer.h</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-      <Class Name="Tracer::Lock" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Tracer.h</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAIAAIAAEAAAAAEAAAAAhAAIAAAAABAAAAAAQAQAAAA=</HashCode>
       <FileName>Tracer.h</FileName>
