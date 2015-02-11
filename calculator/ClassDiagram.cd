@@ -210,7 +210,7 @@
       <FileName>Storage.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SymbolTable">
+  <Class Name="SymbolTable" Collapsed="true">
     <Position X="5" Y="8.5" Width="1.75" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
